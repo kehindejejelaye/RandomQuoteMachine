@@ -1,0 +1,45 @@
+body {
+  background-color: #333;
+  color: #333;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+#quote-box {
+  margin: auto;
+  background: #fff;
+  padding: 10px 16px;
+  border-radius: 5px;
+}
+#text {
+  text-align: center;
+  word-wrap: break-word;
+  width: 50%;
+  height: auto;
+  clear: both;
+  font-weight: 500;
+}
+#new-quote {
+  margin-left: 60%;
+  padding: 5px;
+  background-color: #333;
+  color: #fff;
+  border: 1px solid #333;
+  border-radius: 3px;
+}
+#tweet-quote {
+  padding: 5px;
+  border-radius: 3px;
+  background-color: #333;
+  color: #fff;
+}
